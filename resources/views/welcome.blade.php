@@ -293,7 +293,7 @@
                 
                 <!-- Tombol Perbesar -->
                 <button class="btn btn-outline-primary mt-3 w-100" data-bs-toggle="modal" data-bs-target="#modalPortoDesain">
-                    <i class="fas fa-search-plus me-2"></i> Perbesar
+                    <i class="fas fa-layer-group me-2"></i> Selengkapnya
                 </button>
                 
             </div>
@@ -401,7 +401,7 @@
                     <h6 class="text-center fw-bold mt-2 text-muted">Karya Gedung</h6>
                     <!-- Sebagai contoh, ini menggunakan model sepatu bawaan web untuk tes -->
                     <model-viewer 
-                        src="{{ asset('3D/tokoblend.glb') }}" 
+                        src="{{ asset('3D/ooomagab.glb') }}" 
                         alt="3D Karya 2" 
                         auto-rotate 
                         camera-controls 
@@ -497,54 +497,54 @@
         
         <!-- DESAINER 1 -->
         <div class="card kartu-rekan">
-            <img src="foto-desainer1.jpg" class="card-img-top foto-rekan" alt="Desainer 1">
+            <img src="{{ asset('images/images(1).jpg') }}" class="card-img-top foto-rekan" alt="Desainer 1">
             <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-1">Nama Desainer 1</h5>
+                <h5 class="card-title fw-bold mb-1">Anya Desainer 1</h5>
                 <span class="badge bg-primary">Desainer Grafis</span>
             </div>
         </div>
 
         <!-- DESAINER 2 -->
         <div class="card kartu-rekan">
-            <img src="foto-desainer2.jpg" class="card-img-top foto-rekan" alt="Desainer 2">
+            <img src="{{ asset('images/images(5).jpg') }}" class="card-img-top foto-rekan" alt="Desainer 2">
             <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-1">Nama Desainer 2</h5>
+                <h5 class="card-title fw-bold mb-1">Om Botak Desainer 2</h5>
                 <span class="badge bg-primary">Desainer Grafis</span>
             </div>
         </div>
 
         <!-- DESAINER 3 -->
         <div class="card kartu-rekan">
-            <img src="foto-desainer3.jpg" class="card-img-top foto-rekan" alt="Desainer 3">
+            <img src="{{ asset('images/images(3).jpg') }}" class="card-img-top foto-rekan" alt="Desainer 3">
             <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-1">Nama Desainer 3</h5>
-                <span class="badge bg-info">Desainer UI/UX</span>
+                <h5 class="card-title fw-bold mb-1">Amba 3D Artist</h5>
+                <span class="badge bg-info">Desainer 3D</span>
             </div>
         </div>
 
         <!-- DESAINER 4 -->
         <div class="card kartu-rekan">
-            <img src="foto-desainer4.jpg" class="card-img-top foto-rekan" alt="Desainer 4">
+            <img src="{{ asset('images/images(4).jpg') }}" class="card-img-top foto-rekan" alt="Desainer 4">
             <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-1">Nama Desainer 4</h5>
-                <span class="badge bg-primary">Desainer 3D</span>
+                <h5 class="card-title fw-bold mb-1">Rusdi 3D Artist</h5>
+                <span class="badge bg-info">Desainer 3D</span>
             </div>
         </div>
 
         <!-- PEMILIK PROYEK 1 -->
         <div class="card kartu-rekan">
-            <img src="foto-owner1.jpg" class="card-img-top foto-rekan" alt="Pemilik 1">
+            <img src="{{ asset('images/waaw.png') }}" class="card-img-top foto-rekan" alt="Pemilik 1">
             <div class="card-body text-center bg-light">
-                <h5 class="card-title fw-bold mb-1">Nama Pemilik 1</h5>
+                <h5 class="card-title fw-bold mb-1">Ripa 1</h5>
                 <span class="badge bg-dark">Pemilik Proyek</span>
             </div>
         </div>
 
         <!-- PEMILIK PROYEK 2 -->
         <div class="card kartu-rekan">
-            <img src="foto-owner2.jpg" class="card-img-top foto-rekan" alt="Pemilik 2">
+            <img src="{{ asset('images/bos.jpg') }}" class="card-img-top foto-rekan" alt="Pemilik 2">
             <div class="card-body text-center bg-light">
-                <h5 class="card-title fw-bold mb-1">Nama Pemilik 2</h5>
+                <h5 class="card-title fw-bold mb-1">Faisal 2</h5>
                 <span class="badge bg-dark">Pemilik Proyek</span>
             </div>
         </div>
@@ -565,7 +565,7 @@
             
             <!-- Kolom 1: Info Brand/Deskripsi -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 fw-bold text-primary">Nama Brand-mu</h5>
+                <h5 class="text-uppercase mb-4 fw-bold text-primary">Viz3D</h5>
                 <p>Kami adalah tim kreatif yang berdedikasi untuk memberikan solusi desain grafis dan visualisasi 3D terbaik untuk kebutuhan bisnis dan proyek Anda.</p>
             </div>
 
@@ -609,7 +609,7 @@
         <div class="row align-items-center text-center">
             <div class="col-12">
                 <p class="mb-0"> Copyright ©2026 All rights reserved by: 
-                    <a href="#" class="text-decoration-none text-primary fw-bold">Nama Brand-mu</a>
+                    <a href="#" class="text-decoration-none text-primary fw-bold">Viz3D</a>
                 </p>
             </div>
         </div>
